@@ -1,0 +1,36 @@
+{
+    "vehicles": [
+        {
+            "make": "Ford",
+            "model": "F150",
+            "year": 2012,
+            "color": "White",
+            "price": 28000,
+            "path": "Images/Ford-F150-2012-White.jpg"
+        },
+        {
+            "make": "Toyota",
+            "model": "Camry",
+            "year": 2007,
+            "color": "Black",
+            "price": 6700,
+            "path": "Images/Toyota-Camry-2007-Black.png"
+        },
+        {
+            "make": "Ford",
+            "model": "Ranger",
+            "year": 1999,
+            "color": "Blue",
+            "price": 8000,
+            "path": "Images/Ford-Ranger-2001-Blue.png"
+        },
+        {
+            "make": "Jeep",
+            "model": "Grand Patriot",
+            "year": 2011,
+            "color": "White",
+            "price": 7200,
+            "path": "Images/Jeep-GrandPatriot-2011-White.jpg"
+        }
+    ]
+}
