@@ -36,7 +36,8 @@ function loadVehicles(myVehicles, vehicleMake, vehicleModel, vehicleYear, vehicl
         let path = vehicles[i].path;
         let card = "vehicle" + i.toString;
 
-        if ((make === vehicleMake || makeEmpty) && (model === vehicleModel || modelEmpty) && (year == vehicleYear || yearEmpty) && (color === vehicleColor || colorEmpty) && (price <= vehiclePrice || priceEmpty)){
+       if ((make.toUpperCase() === vehicleMake.toUpperCase() || makeEmpty) && (model.toUpperCase() === vehicleModel.toUpperCase() || modelEmpty) 
+                        && (year == vehicleYear || yearEmpty) && (color.toUpperCase() === vehicleColor.toUpperCase() || colorEmpty) && (price <= vehiclePrice || priceEmpty)){
             let AddVehicle = document.createElement("div");
             // add class = “col” to new division for Bootstrap
             AddVehicle.classList.add("col"); 
